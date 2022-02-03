@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+ box-sizing: border-box; 
+ margin: 0;
+ padding: 0;
+ 
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: 'Source Serif 4', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+}
+.quote {
+  font-size: 40px;
+}
+.author {
+  margin-top: 23px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 26px;
+  font-style: italic;
+}
+.quote-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
